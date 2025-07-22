@@ -4,7 +4,7 @@ import 'package:my_pocket_wallet/screens/home_page.dart';
 import 'package:my_pocket_wallet/screens/pages/register.dart';
 
 class LoginPage extends StatelessWidget {
-  LoginPage({Key? key}) : super(key: key);
+  LoginPage({super.key});
 
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
